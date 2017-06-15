@@ -9,16 +9,23 @@ Odoo modules related to Human Resources.
 
 
 [//]: # (addons)
+
 Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
 [hr_employee_firstname](hr_employee_firstname/) | 9.0.1.0.0 | Adds First Name to Employee
+[hr_employee_reference](hr_employee_reference/) | 9.0.1.0.0 | Manage employee references
+[hr_expense_analytic_distribution](hr_expense_analytic_distribution/) | 9.0.1.0.0 | Use analytic plans in expenses
 [hr_family](hr_family/) | 9.0.1.0.0 | Employee Family Information
+[hr_holiday_notify_employee_manager](hr_holiday_notify_employee_manager/) | 9.0.1.0.0 | Notify employee's manager by mail on Leave Requests creation.
 [hr_holidays_compute_days](hr_holidays_compute_days/) | 9.0.1.0.0 | Computes the actual leave days considering rest days and public holidays
 [hr_holidays_leave_auto_approve](hr_holidays_leave_auto_approve/) | 9.0.1.0.0 | Leave type for auto approval of Leaves
 [hr_holidays_legal_leave](hr_holidays_legal_leave/) | 9.0.1.0.0 | Allows the definition of legal/annual leave
+[hr_payroll_report](hr_payroll_report/) | 9.0.1.0.0 | Analyze your payroll with the Payslip Lines BI report
 [hr_public_holidays](hr_public_holidays/) | 9.0.1.0.0 | Manage Public Holidays
+[hr_worked_days_from_timesheet](hr_worked_days_from_timesheet/) | 9.0.1.0.0 | Adds a button to import worked days from timesheet.
+
 
 Unported addons
 ---------------
@@ -39,11 +46,9 @@ addon | version | summary
 [hr_employee_id](hr_employee_id/) | 8.0.1.0.0 (unported) | Employee ID
 [hr_employee_legacy_id](hr_employee_legacy_id/) | 8.0.1.0.0 (unported) | Legacy Employee ID
 [hr_employee_phone_extension](hr_employee_phone_extension/) | 8.0.1.0.0 (unported) | Employee Phone Extension
-[hr_employee_reference](hr_employee_reference/) | 8.0.1.0.0 (unported) | Manage employee references
 [hr_employee_seniority](hr_employee_seniority/) | 1.0 (unported) | Employee Seniority
 [hr_expense_account_period](hr_expense_account_period/) | 8.0.0.1.0 (unported) | Accounting period for HR expenses journal entries
 [hr_expense_analytic_default](hr_expense_analytic_default/) | 8.0.0.1.0 (unported) | Manage default analytic account on expenses
-[hr_expense_analytic_plans](hr_expense_analytic_plans/) | 8.0.1.0.0 (unported) | Use analytic plans in expenses
 [hr_expense_invoice](hr_expense_invoice/) | 8.0.1.0.0 (unported) | Supplier invoices on HR expenses
 [hr_expense_move_date](hr_expense_move_date/) | 8.0.1.0.0 (unported) | Move date for HR expenses journal entries
 [hr_expense_sequence](hr_expense_sequence/) | 8.0.1.0.0 (unported) | HR expense sequence
@@ -73,7 +78,6 @@ addon | version | summary
 [hr_wage_increment](hr_wage_increment/) | 1.0 (unported) | HR Wage Increment
 [hr_webcam](hr_webcam/) | 8.0.1.0.0 (unported) | Capture employee picture with webcam
 [hr_worked_days_activity](hr_worked_days_activity/) | 1.0 (unported) | Worked Days Activity
-[hr_worked_days_from_timesheet](hr_worked_days_from_timesheet/) | 8.0.1.0.0 (unported) | Worked Days From Timesheet
 [hr_worked_days_hourly_rate](hr_worked_days_hourly_rate/) | 1.0 (unported) | Worked Days Hourly Rates
 
 [//]: # (end addons)
